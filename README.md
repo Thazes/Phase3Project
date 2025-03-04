@@ -26,10 +26,25 @@ The data set had 3,333 rows and 21 columns with different data types
 ![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/datatypes.png)
 
 
+### Data Cleaning
+
 Upon further analysis the dataset didn't have any null or duplicated values therefore minimal cleaning of data was needed.
 
 Next I looked at the Outliers. The Box plot below shows how they were distributed:
 
 ![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/box%20plot%20showing%20outliers.png)
+
+I dropped all rows with outliers
+
+### EDA and data analysis
+I plotted a histogram showing how the numerical values are distributed
+
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/Histogram%20Numerical%20Columns.png)
+
+From the above Histograms The following columns seem to be having a unifirm distribution:
+
+1 accountlength,total day minutes,total day calls,total day charge,total eve minutes,total eve calls,total eve charge,total night minutes,total night calls,total night charge,total intl minutes,total intl charge
+
+
 
 
