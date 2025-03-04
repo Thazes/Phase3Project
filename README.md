@@ -23,13 +23,13 @@ This dataset contains various attributes related to customer usage patterns, ser
 
 The data set had 3,333 rows and 21 columns with different data types
 
-https://github.com/Thazes/Phase3Project/blob/main/photos/datatypes.png
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/datatypes.png)
 
 
 Upon further analysis the dataset didn't have any null or duplicated values therefore minimal cleaning of data was needed.
 
 Next I looked at the Outliers. The Box plot below shows how they were distributed:
 
-https://github.com/Thazes/Phase3Project/blob/main/photos/box%20plot%20showing%20outliers.png
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/box%20plot%20showing%20outliers.png)
 
 
