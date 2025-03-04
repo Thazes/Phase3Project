@@ -43,7 +43,15 @@ I plotted a histogram showing how the numerical values are distributed
 
 From the above Histograms The following columns seem to be having a unifirm distribution:
 
-1 accountlength,total day minutes,total day calls,total day charge,total eve minutes,total eve calls,total eve charge,total night minutes,total night calls,total night charge,total intl minutes,total intl charge
+accountlength,total day minutes,total day calls,total day charge,total eve minutes,total eve calls,total eve charge,total night minutes,total night calls,total night charge,total intl minutes,total intl charge
+
+Next I plotted a correlation matrix of numeric the variables 
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/correlationmatricnumeric.png)
+
+Total day minutes and total day charge have a perfect correlation (1.00), indicating a direct linear relationship (likely because total day charge is derived from total day minutes). Similarly, total eve minutes and total eve charge, total night minutes and total night charge, total intl minutes and total intl charge also show a perfect correlation (1.00).
+
+Since total day charge is derived from total day minutes,total eve minutes and total eve charge and finally total night minutes and total night charge one of them from the pairs should be dropped to avoid multicollinearity in modeling.
+
 
 
 
