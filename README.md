@@ -52,7 +52,19 @@ Total day minutes and total day charge have a perfect correlation (1.00), indica
 
 Since total day charge is derived from total day minutes,total eve minutes and total eve charge and finally total night minutes and total night charge one of them from the pairs should be dropped to avoid multicollinearity in modeling.
 
+I will display relationship between churn and international plan using the histogram below
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/histogramchurnvsinternationalplan.png)
 
+From the above histogram, we can see that churn was mostly experienced on customers on the international plan. This makes sense as it could probably mean that they were visiting the country hence once done they did not see the need top use their phone numbers.
 
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/pairplot_multiple_variables.png)
 
+Total Day Minutes and Churn
+The first column (and row) represents Total Day Minutes. Churned customers (orange) seem to spend more minutes on calls during the day compared to non-churned customers. This could indicate that heavy daytime call usage is correlated with customer churn.
+
+Total Evening and Night Minutes
+For Total Evening Minutes and Total Night Minutes, there doesn’t seem to be a strong visible separation between churned and non-churned customers. This suggests that evening and night call durations may not be strong indicators of churn.
+
+Total International Minutes and Churn
+The Total Intl Minutes (bottom right corner) shows a slightly different density distribution for churned customers. If churned customers tend to have higher international call minutes, it might indicate dissatisfaction with international call rates or service.
 
