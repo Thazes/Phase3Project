@@ -75,7 +75,9 @@ I Defined  X (features) and Y (target) then proceeded encode target variable as 
 ![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/Separating%20XandY.png)
 
 Unique columns for the categorical columns
-![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/Separating%20XandY.png)
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/categorical_colum_unique.png)
 
+Now I proceeded to Encode categorical columns
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/Laabel%20and%20OHE%20encoding%20.png)
 
 
