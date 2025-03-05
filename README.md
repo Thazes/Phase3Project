@@ -68,3 +68,14 @@ For Total Evening Minutes and Total Night Minutes, there doesn’t seem to be a 
 Total International Minutes and Churn
 The Total Intl Minutes (bottom right corner) shows a slightly different density distribution for churned customers. If churned customers tend to have higher international call minutes, it might indicate dissatisfaction with international call rates or service.
 
+
+### Pre-Processing
+I Defined  X (features) and Y (target) then proceeded encode target variable as it was boolean
+
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/Separating%20XandY.png)
+
+Unique columns for the categorical columns
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/Separating%20XandY.png)
+
+
+
