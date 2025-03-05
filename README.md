@@ -1,10 +1,14 @@
 # Phase 3 data Science Project
 
-
+The git hub repo contains several files 
+1. Phase3.ipnyb file which is the notebook containing the data analysis
+2. Photos folder- contains images of various visualisations from the analysis
+3. telecoms.csv- the dataset
 
 ## Project Overview 
 
 Reducing customer churn is crucial for sustaining revenue and profitability. Identifying at-risk customers allows for proactive retention strategies, such as tailored offers and service improvements. A data-driven approach enhances customer satisfaction, strengthens loyalty, and supports long-term business growth.
+
 
 ### Business Understanding
 
@@ -79,5 +83,45 @@ Unique columns for the categorical columns
 
 Now I proceeded to Encode categorical columns
 ![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/Laabel%20and%20OHE%20encoding%20.png)
+
+####  Splitting into training and test data
+
+I proceeded to split the data into training and test data.
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/splitting_training_test.png)
+
+### Modelling and Processing of Data
+I created the following models
+1. Logistic Regression
+2. KNN
+3. Random forest
+4. Decision Tree
+
+Form the above the models, I identified Random forest as the best model:
+This is because:
+
+* It has the Best balance between precision (0.95) and recall (0.50) for churned customers
+* It has the Highest accuracy (93%)
+* And finally it Performs better than Decision Tree, SVM, and Logistic Regression on f1-score
+
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/Tuned%20_random_forest_model.png)
+
+Now I will look into identifying which parameters affect churn the most by adjusting the parameters  
+
+![alt text](https://github.com/Thazes/Phase3Project/blob/main/photos/factors.png)
+
+From the above barplot we can see that total day minutes affected churn the most followed by international plan
+
+#### Conclusion
+
+In conclusion, the tuned random forest was the best model to perform the predictions as it had highest precison of 0.95 and highest churn recall(0.5) ou of all models
+
+Precision (0.95 for churned customers)
+Out of all customers the model predicted as "churned," 95% were actually churned This means we have very few false positives (customers mistakenly identified as churned)
+
+Recall (0.50 for churned customers)
+Out of all actual churned customers, only 50% were correctly identified This means some churned customers were missed (false negatives)
+
+Top 3 Features which majorly affect the churn are total day minutes, international plan and total eveing minutes.
+
 
 
