@@ -1,11 +1,11 @@
 # Phase 3 data Science Project
 
-The git hub repo contains several files 
+The git hub repo contains the following files 
 1. [Phase3.ipnyb](https://github.com/Thazes/Phase3Project/blob/main/Phase3.ipynb) file which is the notebook containing the data analysis
 2. [Photos folder](https://github.com/Thazes/Phase3Project/tree/main/photos)- contains images of various visualisations from the analysis
 3. [telecoms.csv](https://github.com/Thazes/Phase3Project/blob/main/telecoms.csv)- the dataset
 4. [Presentation.pdf](https://github.com/Thazes/Phase3Project/blob/main/Presentation.pdf)- contains powerpoint slides to the presentation 
-5. [README.md](https://github.com/Thazes/Phase3Project/blob/main/README.md)
+5. [README.md](https://github.com/Thazes/Phase3Project/blob/main/README.md)- contains a summary of the repo and the analysis
 
 ## Project Overview 
 
